@@ -19,6 +19,7 @@ jobs:
       with:
            python-version: '3.10'
            architecture: 'x64'
+    - run: env
     - name: Build runestone server container
       run: |
         cd /home/runner/
@@ -35,7 +36,9 @@ jobs:
         pip3 install -e /home/runner/RunestoneServer/rsmanage
     - name: Clone cpp4python into runestone server books directory
       run: |
-        git clone -b feature/workflows https://github.com/Colorado-CompSci-Ugrad/cpp4python.git /home/runner/RunestoneServer/books/cpp4python
+        git clone $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git /home/runner/RunestoneServer/books/cpp4python
+        git fetch origin $GITHUB_REF
+        git checkout -b $GITHUB_REF_NAME FETCH_HEAD
     - name: Wait for runestone server to be ready
       run: ${GITHUB_WORKSPACE}/.github/scripts/check-runestone-readiness.sh
       shell: bash 
