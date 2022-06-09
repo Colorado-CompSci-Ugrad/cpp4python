@@ -3,6 +3,7 @@
     To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 
+.. _RST Arrays:
 Arrays
 ~~~~~~
 
@@ -76,7 +77,7 @@ so the following are not the same.
     double darray[] = {1.2};  // must use index to access value
     double ddouble = 1.2;     // cannot use index to access value
 
-
+.. _RST Array Iteration:
 **Be Cautious with Arrays**
 
 The speed and low-level control that arrays offer us
