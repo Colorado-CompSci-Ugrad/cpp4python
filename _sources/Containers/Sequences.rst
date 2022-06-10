@@ -5,7 +5,7 @@
 Sequences
 ---------
 
-Python sequences type are `:xref:strings, bytestrings, lists, tuples (pairs, *etc*) and ranges <https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range>`_ .
+Python sequences type are `strings, bytestrings, lists, tuples (pairs, *etc*) and ranges <https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range>`_ .
 Elements in a python sequence have *positions* and you can *iterate* over the sequence.
 
 C++ uses :ref:Arrays as a basic sequence type, but arrays have many limitations - they have a fixed size and accessing data outside the range of the array is not checked and causes errors.
@@ -116,7 +116,7 @@ Vectors may allocate extra storage to accommodate for possible growth (*e.g.* fr
 and typically have an actual *capacity* greater than the storage *size* (the number of items in the vector).
 
 You can substitute a vector for an array using the `myvect[i]` notation, but this doesn't check that references are within the array bounds, just as for a C++ array.
-Alternatively, you can use the `myvect.at(i)` notation -- this is slightly slower but it throws a C++ `:xref:out of range exception <https://cplusplus.com/reference/stdexcept/out_of_range/>`_;
+Alternatively, you can use the `myvect.at(i)` notation -- this is slightly slower but it throws a C++ `out of range exception <https://cplusplus.com/reference/stdexcept/out_of_range/>`_;
 exceptions are an "advanced" topic (see :ref:`Exception Handling` ).
 
 .. activecode:: vectorIteration1

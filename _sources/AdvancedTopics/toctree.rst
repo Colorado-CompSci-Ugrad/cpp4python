@@ -2,7 +2,7 @@ Advanced Topics
 :::::::::::::::
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     Namespaces.rst
     FunctionOverloading.rst

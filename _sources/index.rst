@@ -31,7 +31,7 @@ By Jan Pearce, Berea College and Brad Miller, Runestone
    Functions/toctree.rst
    Aggregates/toctree.rst
    DynamicMemory/toctree.rst
-   CollectionData/toctree.rst
+   Containers/toctree.rst
    Input_and_Output/toctree.rst
    AdvancedTopics/toctree.rst
    Turtles/toctree.rst
