@@ -5,7 +5,7 @@
 Sets
 ^^^^
 
-Python has a :xref:`built-in set data type <https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset>`_ that implements basic set operations ( *e.g.* union, intersection, *etc*).
+Python has a `built-in set data type <https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset>`_ that implements basic set operations ( *e.g.* union, intersection, *etc*).
 
 As with dictionaries, C++ provides two different set types - `unordered_set` and `set`.
 An **unordered_set** is an unordered collection of zero or more unique C++ data values

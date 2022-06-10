@@ -59,4 +59,4 @@ For example, we can define a single template that will then handle both the `int
 The :ref:`Container Data Types` (*e.g.* `vector`, `list` and `unordered_map`) are implemented using templates -- you can define a vector of `int` or `string` and the code is automatically duplicated to handle each data type.
 
 Even though this is a section on "advanced topics", templates have a number of featues and complexities that go beyond this book.
-More details can be found at this  :xref:`templates tutoial<https://cplusplus.com/doc/oldtutorial/templates/>`_.
+More details can be found at this `templates tutoial <https://cplusplus.com/doc/oldtutorial/templates/>`_ .
